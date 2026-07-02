@@ -1,0 +1,166 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fdf8f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6b4c2a;
+}
+
+header {
+    padding: 16px 32px;
+    background-color: #2c1a0e;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color:#e8c99a
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    mix-blend-mode: screen;
+    opacity: 0.9;
+}
+
+nav {
+    padding: 10px 24px;
+    background-color: #3b2010;
+}
+
+nav a {
+    color: #3b2010;
+    background-color: #d4a853;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    padding: 7px 16px;
+    border: 1px solid #d4a853;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+main {
+    padding: 24px 32px;
+}
+
+.principal{
+    color: #2c1a0e;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+
+
+.livros div {
+    background-color: #f5e6d0;
+    border: 1px solid #e8c99a;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.livros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.genero {
+    display: inline-block;
+    background-color: #d4a853;
+    color: #2c1a0e;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+.livro img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.livro a {
+    display: block;
+    text-align: center;
+    color: #2c1a0e;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.livro a:hover {
+    color: #d4a853;
+}
+
+footer {
+  background: #3B1F0A;
+  color: #D4B896;
+  padding: 2rem 3rem;
+  border-top: 2px solid #6B3F1A;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #E8C99A;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.footer-slogan {
+  font-size: 13px;
+  color: #A07850;
+  margin: 0;
+  font-style: italic;
+}
+
+.footer-divider {
+  width: 48px;
+  height: 1px;
+  background: #6B3F1A;
+  margin: 0.25rem 0;
+}
+
+.footer-email {
+  font-size: 13px;
+  color: #B08060;
+  margin: 0;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #7A5535;
+  margin: 0;
+}
